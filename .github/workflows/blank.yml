@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Photographe</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #333; color: #fff; text-align: center; padding: 1rem 0; }
+        .portfolio { display: flex; flex-wrap: wrap; justify-content: center; padding: 2rem; }
+        .photo { margin: 1rem; }
+        img { width: 300px; height: auto; border-radius: 10px; }
+        footer { text-align: center; padding: 1rem 0; background: #333; color: #fff; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur mon portfolio</h1>
+        <p>Découvrez mon univers photographique</p>
+    </header>
+    <section class="portfolio">
+        <div class="photo"><img src="photo1.jpg" alt="Photo 1"></div>
+        <div class="photo"><img src="photo2.jpg" alt="Photo 2"></div>
+        <div class="photo"><img src="photo3.jpg" alt="Photo 3"></div>
+    </section>
+    <footer>
+        <p>© 2024 - Photographie-MED | Contact : <a href="mailto:email@example.com">email@example.com</a></p>
+    </footer>
+</body>
+</html>
